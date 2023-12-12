@@ -3,5 +3,5 @@
     $_SESSION = array();
     session_destroy();
     $_SESSION["loggedin"] = false;
-    header('location: ./home.php'); 
+    header('location: ./'); 
 ?>
